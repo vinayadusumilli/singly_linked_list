@@ -5,6 +5,7 @@ singly_list.add_begin_node(20)
 singly_list.add_begin_node(10)
 singly_list.add_end_node(40)
 singly_list.add_begin_node(0)
+singly_list.add_between_nodes(30, 0)
 singly_list.add_end_node(906)
 singly_list.print_data()
 

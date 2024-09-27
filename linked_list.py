@@ -31,3 +31,25 @@ class LinkedList:
                 before_node = n
                 n = n.ref
             before_node.ref = new_node
+
+    def add_between_nodes(self, data, node_data):
+        global current_ref, next_ref
+        new_node = Node(data)
+        n = self.head
+        if n is None:
+            new_node.ref = self.head
+            self.head = new_node
+        else:
+            current_ref = None
+            next_ref = None
+            while n is not None:
+                current_ref = n
+                next_ref = n.ref
+                if n.data == node_data:
+                    break
+                else:
+                    n = n.ref
+        current_ref.ref = new_node
+        next_ref.ref = new_node
+
+
