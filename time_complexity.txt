@@ -1,0 +1,11 @@
+| Method                   | Time Complexity |
+|---------------------------|-----------------|
+| `display()`               | O(n)            |
+| `add_begin_node()`         | O(1)            |
+| `add_end_node()`           | O(n)            |
+| `add_after_node()`         | O(n)            |
+| `add_before_node()`        | O(n)            |
+| `remove_begin_node()`      | O(1)            |
+| `remove_end_node()`        | O(n)            |
+| `remove_after_node()`      | O(n)            |
+| `remove_before_node()`     | O(n)            |
